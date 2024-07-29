@@ -1,0 +1,75 @@
+#master {
+    margin-left: 20px;
+}
+#master2 {
+  margin-left: 10%;
+}
+#master3 {
+  margin-left: 10%;
+}
+
+#textBoxBasic {
+    margin-right: 250px;
+    height: 20px;
+    margin: 10px;
+  }
+#textBoxBasic2 {
+    margin-right: 250px;
+    height: 20px;
+    margin: 10px;
+  }
+
+#textBoxBasic3 {
+    margin-right: 250px;
+    height: 20px;
+    margin: 10px;
+  }
+
+#textAreaJson{
+    height: 70%;
+    margin: 5%;
+}
+#textAreaJson2{
+  height: 100%;
+  margin: 5%;
+}
+
+.box {
+  border: 1px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 200px;
+  max-width: 200px;
+}
+
+.box2 {
+  border: 1px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 185px;
+  max-width: 200px;
+}
+.generalDivs {
+  border: 2px black;
+  border-style: dotted;
+}
+
+.fullscreen-modal .modal-dialog {
+  width: 80%;
+  max-width: 80%;
+  margin: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 120px);
+  min-width: calc(100vh - 120px);
+}
+
+.fullscreen-modal .modal-content {
+  border-radius: 0;
+  width: 90%;
+  max-width: 90%;
+}
+
+.fullscreen-modal .modal-body {
+  max-height: calc(100vh - 120px); /* Tamaño máximo del cuerpo del modal */
+  overflow-x: auto; /* Permite desplazamiento horizontal si el contenido excede el tamaño del cuerpo */
+}
